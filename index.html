@@ -5,6 +5,9 @@
       body {text-align: center;}
       img {border: 5px solid white;}
     </style>
+    .parent{display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap:5px;}
   </head>
   <br>
   <body>
@@ -14,18 +17,24 @@
     <br>
     <br>
     <br>
-    <img src="Hawk.PNG"
+    <div class="parent">
+    <div>
+         <img src="Hawk.PNG"
          width="300"/>
-    <img src="Hawk.PNG"
-         width="300"/
-         style="float:left">
-    <img src="Hawk.PNG"
-         width="300"/
-         style="float:left">
-    <img src="Hawk.PNG"
-         width="300"/
-         style="float:left">
-
+      </div>
+      <div>
+         <img src="Hawk.PNG"
+         width="300"/>
+      </div>
+      <div>
+         <img src="Hawk.PNG"
+         width="300"/>
+      </div>
+      <div>
+         <img src="Hawk.PNG"
+         width="300"/>
+      </div>
+    </div>
     <body style="background-color:#faebd7;">
       <h1 style="background-color:#d2b48c;">
   </body>
